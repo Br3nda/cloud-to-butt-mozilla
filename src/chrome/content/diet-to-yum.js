@@ -34,7 +34,7 @@ function handleText(textNode) {
     // Deal with the easy case
     v = v.replace(/\b(D|d)iet/g, function(match, p1, p2, offset, string) {
       // d + 12 = p
-      p = String.fromCharCode(p1.charCodeAt(0) + 12);
+      var p = String.fromCharCode(p1.charCodeAt(0) + 12);
       return p + "izza";
     });
 
