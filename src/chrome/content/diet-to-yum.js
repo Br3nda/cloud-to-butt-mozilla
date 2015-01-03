@@ -30,12 +30,12 @@ function walk(node)
 }
     
 function handleText(textNode) {
+    var yummyFood = ['pizza', 'chocolate', 'strawberries', 'kale', 'pancakes', 'roast potato', 'spaghetti', 'candy', 'coffee', 'beer'];
+    var randNum =  Math.floor((Math.random() * 10) + 1); 
     var v = textNode.nodeValue;
     // Deal with the easy case
     v = v.replace(/\b(D|d)iet/g, function(match, p1, p2, offset, string) {
-      // d + 12 = p
-      var p = String.fromCharCode(p1.charCodeAt(0) + 12);
-      return p + "izza";
+        return yummyFood[randNum];
     });
 
     textNode.nodeValue = v;
