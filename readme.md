@@ -1,6 +1,6 @@
 # diet to yum mozilla 
 
-Derived from the work of Steven Frank's [cloud-to-butt](https://github.com/panicsteve/cloud-to-butt) Chrome extension and Dan Bunyard's [cloud-to-butt]((https://github.com/DaveRandom/cloud-to-butt-mozilla/) Mozilla extension.
+Derived from the work of Steven Frank's [cloud-to-butt](https://github.com/panicsteve/cloud-to-butt) Chrome extension and Dan Bunyard's [cloud-to-butt](https://github.com/DaveRandom/cloud-to-butt-mozilla/) Mozilla extension.
 
 
 ## Installing
