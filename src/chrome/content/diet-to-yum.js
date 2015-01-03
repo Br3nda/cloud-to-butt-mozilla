@@ -30,7 +30,7 @@ function walk(node)
 }
     
 function handleText(textNode) {
-    var yummyFood = ['pizza', 'chocolate', 'strawberries', 'kale', 'pancakes', 'roast potato', 'spaghetti', 'candy', 'coffee', 'beer'];
+    var yummyFood = ['pizza', 'chocolate', 'strawberries', 'kale', 'pancakes', 'roast potato', 'spaghetti', 'candy', 'coffee', 'beer', 'curry'];
     var randNum =  Math.floor((Math.random() * 10) + 1); 
     var v = textNode.nodeValue;
     // Deal with the easy case
